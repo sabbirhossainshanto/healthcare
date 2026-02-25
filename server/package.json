@@ -1,0 +1,40 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "dev": "tsx watch src/server.ts",
+    "lint": "eslint ./src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "bunx --bun prisma migrate dev",
+    "generate": "bunx --bun prisma generate",
+    "studio": "bunx --bun prisma studio",
+    "push": "bunx --bun prisma db push",
+    "pull": "bunx --bun prisma db pull"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@eslint/js": "^10.0.1",
+    "@prisma/adapter-pg": "^7.4.0",
+    "@prisma/client": "^7.4.0",
+    "better-auth": "^1.4.19",
+    "dotenv": "^17.3.1",
+    "eslint": "^10.0.0",
+    "express": "^5.2.1",
+    "pg": "^8.18.0",
+    "typescript-eslint": "^8.56.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.2.3",
+    "@types/pg": "^8.16.0",
+    "prisma": "^7.4.0",
+    "typescript": "^5.9.3"
+  }
+}
