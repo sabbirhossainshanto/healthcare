@@ -1,12 +1,13 @@
 import { specialtyService } from "./specialty.service";
 import { catchAsync } from "../../shared/catchAsync";
 import { sendResponse } from "../../shared/sendResponse";
+import status from "http-status";
 
 const createSpecialty = catchAsync(async (req, res) => {
   const payload = req.body;
   const specialty = await specialtyService.createSpecialty(payload);
   sendResponse(res, {
-    httpStatus: 201,
+    httpStatus: status.OK,
     success: true,
     message: "Specialty created successfully",
     data: specialty,
@@ -16,7 +17,7 @@ const createSpecialty = catchAsync(async (req, res) => {
 const getAllSpecialties = catchAsync(async (req, res) => {
   const specialties = await specialtyService.getAllSpecialties();
   sendResponse(res, {
-    httpStatus: 200,
+    httpStatus: status.OK,
     success: true,
     message: "Specialties retrieved successfully",
     data: specialties,
