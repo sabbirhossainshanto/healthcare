@@ -14,7 +14,8 @@
     "generate": "bunx --bun prisma generate",
     "studio": "bunx --bun prisma studio",
     "push": "bunx --bun prisma db push",
-    "pull": "bunx --bun prisma db pull"
+    "pull": "bunx --bun prisma db pull",
+    "stripe:webhook": "stripe listen --forward-to localhost:5000/webhook"
   },
   "keywords": [],
   "author": "",
@@ -27,6 +28,7 @@
     "cloudinary": "^2.9.0",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.6",
+    "date-fns": "^4.1.0",
     "dotenv": "^17.3.1",
     "ejs": "^4.0.1",
     "eslint": "^10.0.0",
@@ -36,11 +38,14 @@
     "ms": "^2.1.3",
     "multer": "^2.1.0",
     "multer-storage-cloudinary": "^4.0.0",
+    "node-cron": "^4.2.1",
     "nodemailer": "^8.0.1",
     "pg": "^8.18.0",
     "qs": "^6.15.0",
+    "stripe": "^20.4.0",
     "tsx": "^4.21.0",
     "typescript-eslint": "^8.56.0",
+    "uuid": "^13.0.0",
     "zod": "^4.3.6"
   },
   "devDependencies": {
