@@ -1,7 +1,10 @@
-import React from "react";
+import { Button } from "@/components/ui/button";
 
-const CommonPage = () => {
-  return <div></div>;
-};
-
-export default CommonPage;
+export default function Home() {
+  return (
+    <div>
+        Common
+      <Button variant="outline">Hello World</Button>
+    </div>
+  );
+}

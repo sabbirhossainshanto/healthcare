@@ -1,5 +1,8 @@
-const PaymentSuccessPage = () => {
-  return <div></div>;
-};
 
-export default PaymentSuccessPage;
+const PaymentSuccessPage = () => {
+  return (
+    <div>PaymentSuccessPage</div>
+  )
+}
+
+export default PaymentSuccessPage

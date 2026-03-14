@@ -111,6 +111,7 @@ const loginUser = async (payload: ILoginUserPayload) => {
 };
 
 const getMe = async (user: IRequestUser) => {
+  console.log({ user });
   const result = await prisma.user.findUnique({
     where: {
       id: user.userId,
@@ -136,6 +137,8 @@ const getMe = async (user: IRequestUser) => {
       admin: true,
     },
   });
+
+  console.log({ result });
 
   if (!result) throw new AppError(status.NOT_FOUND, "User not found");
   return result;

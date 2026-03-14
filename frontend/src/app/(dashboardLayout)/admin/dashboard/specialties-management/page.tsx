@@ -1,7 +1,8 @@
-import React from "react";
 
 const SpecialtiesManagementPage = () => {
-  return <div></div>;
-};
+  return (
+    <div>SpecialtiesManagementPage</div>
+  )
+}
 
-export default SpecialtiesManagementPage;
+export default SpecialtiesManagementPage

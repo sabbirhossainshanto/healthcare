@@ -1,5 +1,8 @@
-const NGOsPage = () => {
-  return <div></div>;
-};
 
-export default NGOsPage;
+const NGOsPage = () => {
+  return (
+    <div>NGOsPage</div>
+  )
+}
+
+export default NGOsPage

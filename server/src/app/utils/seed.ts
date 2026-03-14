@@ -12,6 +12,7 @@ export const seedSuperAdmin = async () => {
     });
     if (isSuperAdminExists) {
       console.log("Super admin already exist. Skipping seeding super admin");
+      return;
     }
     const superAdminUser = await auth.api.signUpEmail({
       body: {

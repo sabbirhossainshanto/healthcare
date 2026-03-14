@@ -1,7 +1,8 @@
-import React from "react";
 
 const DoctorSpecialtiesManagementPage = () => {
-  return <div></div>;
-};
+  return (
+    <div>DoctorSpecialtiesManagementPage</div>
+  )
+}
 
-export default DoctorSpecialtiesManagementPage;
+export default DoctorSpecialtiesManagementPage

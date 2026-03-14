@@ -1,7 +1,8 @@
-import React from "react";
 
 const MySchedulesPage = () => {
-  return <div></div>;
-};
+  return (
+    <div>MySchedulesPage</div>
+  )
+}
 
-export default MySchedulesPage;
+export default MySchedulesPage

@@ -1,5 +1,8 @@
-const HealthRecordsPage = () => {
-  return <div></div>;
-};
 
-export default HealthRecordsPage;
+const HealthRecordsPage = () => {
+  return (
+    <div>HealthRecordsPage</div>
+  )
+}
+
+export default HealthRecordsPage

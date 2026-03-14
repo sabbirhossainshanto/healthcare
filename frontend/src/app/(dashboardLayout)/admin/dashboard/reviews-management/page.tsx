@@ -1,7 +1,8 @@
-import React from "react";
 
 const ReviewsManagementPage = () => {
-  return <div></div>;
-};
+  return (
+    <div>ReviewsManagementPage</div>
+  )
+}
 
-export default ReviewsManagementPage;
+export default ReviewsManagementPage

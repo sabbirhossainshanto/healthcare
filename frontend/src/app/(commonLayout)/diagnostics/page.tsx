@@ -1,7 +1,8 @@
-import React from "react";
 
 const DiagnosticsPage = () => {
-  return <div></div>;
-};
+  return (
+    <div>DiagnosticsPage</div>
+  )
+}
 
-export default DiagnosticsPage;
+export default DiagnosticsPage

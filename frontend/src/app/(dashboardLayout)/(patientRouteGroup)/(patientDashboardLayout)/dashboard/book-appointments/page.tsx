@@ -1,5 +1,8 @@
-const BookAppointments = () => {
-  return <div></div>;
-};
 
-export default BookAppointments;
+const BookAppointmentsPage = () => {
+  return (
+    <div>BookAppointmentsPage</div>
+  )
+}
+
+export default BookAppointmentsPage

@@ -1,7 +1,8 @@
-import React from "react";
 
-const DoctorMyReviewsPage = () => {
-  return <div></div>;
-};
+const DoctorsMyReviewsPage = () => {
+  return (
+    <div>DoctorsMyReviewsPage</div>
+  )
+}
 
-export default DoctorMyReviewsPage;
+export default DoctorsMyReviewsPage

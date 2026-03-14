@@ -1,5 +1,8 @@
-const ChangePassword = () => {
-  return <div></div>;
-};
 
-export default ChangePassword;
+const ChangePasswordPage = () => {
+  return (
+    <div>ChangePasswordPage</div>
+  )
+}
+
+export default ChangePasswordPage

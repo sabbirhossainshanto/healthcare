@@ -1,7 +1,8 @@
-import React from "react";
 
 const PaymentsManagementPage = () => {
-  return <div></div>;
-};
+  return (
+    <div>PaymentsManagementPage</div>
+  )
+}
 
-export default PaymentsManagementPage;
+export default PaymentsManagementPage

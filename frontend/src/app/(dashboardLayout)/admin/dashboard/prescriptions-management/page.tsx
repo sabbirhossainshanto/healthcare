@@ -1,7 +1,8 @@
-import React from "react";
 
 const PrescriptionsManagementPage = () => {
-  return <div></div>;
-};
+  return (
+    <div>PrescriptionsManagementPage</div>
+  )
+}
 
-export default PrescriptionsManagementPage;
+export default PrescriptionsManagementPage

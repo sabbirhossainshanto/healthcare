@@ -1,7 +1,8 @@
-import React from "react";
 
 const SchedulesManagementPage = () => {
-  return <div></div>;
-};
+  return (
+    <div>SchedulesManagementPage</div>
+  )
+}
 
-export default SchedulesManagementPage;
+export default SchedulesManagementPage

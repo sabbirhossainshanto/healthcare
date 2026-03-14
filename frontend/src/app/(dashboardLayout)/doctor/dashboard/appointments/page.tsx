@@ -1,7 +1,8 @@
-import React from "react";
 
-const DoctorAppointmentsPage = () => {
-  return <div></div>;
-};
+const DoctorsAppointmentsPage = () => {
+  return (
+    <div>DoctorsAppointmentsPage</div>
+  )
+}
 
-export default DoctorAppointmentsPage;
+export default DoctorsAppointmentsPage

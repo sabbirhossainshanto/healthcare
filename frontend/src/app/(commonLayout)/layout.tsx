@@ -3,5 +3,10 @@ export default function CommonLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <>doctor layout{children}</>;
+  return (
+   <>
+   Common Layout
+   {children}
+   </>
+  );
 }
